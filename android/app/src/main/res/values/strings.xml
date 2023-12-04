@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Absorb</string>
+    <string name="title_home">Home</string>
+    <string name="title_console_log">ConsoleLog</string>
+    <string name="title_notifications">Players</string>
+    <string name="command_hint">Command</string>
+    <string name="start_server">Start server</string>
+</resources>
