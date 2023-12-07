@@ -9,3 +9,5 @@ build
 .idea/modules
 */.idea/*.xml
 */.idea/.name
+
+configs
