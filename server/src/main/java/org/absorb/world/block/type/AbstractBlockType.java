@@ -7,6 +7,7 @@ import net.minestom.server.utils.NamespaceID;
 import org.absorb.world.block.state.BlockState;
 import org.absorb.world.block.state.BlockStateImpl;
 import org.absorb.world.item.type.ItemType;
+import org.absorb.world.location.Direction;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Optional;
@@ -110,6 +111,16 @@ public abstract class AbstractBlockType implements BlockType {
     @Override
     public void onBreakEvent(PlayerBlockBreakEvent event) {
 
+    }
+
+    @Override
+    public int redstonePower(BlockState state) {
+        return 0;
+    }
+
+    @Override
+    public boolean isRedstoneConnected(BlockState itsState, Direction from, BlockState thisState) {
+        return false;
     }
 
     @Override

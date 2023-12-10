@@ -34,6 +34,7 @@ public class AbsorbServer {
     public static void launch(@NotNull AbsorbPlatform plat, String... args) throws IOException {
         platform = plat;
         MinecraftServer server = MinecraftServer.init();
+        MinecraftServer.setBrandName("absorb");
 
         System.out.println("loading configurations");
         ConfigManager configManager = config();
