@@ -9,6 +9,6 @@ public class AbsorbGenerator implements Generator {
     @Override
     public void generate(@NotNull GenerationUnit unit) {
         unit.modifier().fillHeight(0, 2, Block.BEDROCK);
-        unit.modifier().fillHeight(3, 4, Block.GRASS_BLOCK);
+        unit.modifier().fillHeight(2, 4, Block.GRASS_BLOCK);
     }
 }
